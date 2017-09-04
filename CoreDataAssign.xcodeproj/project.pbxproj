@@ -15,6 +15,12 @@
 		ABBAEEEF1F5983630031C961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBAEEED1F5983630031C961 /* LaunchScreen.storyboard */; };
 		ABBAEEFA1F5983630031C961 /* CoreDataAssignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEEF91F5983630031C961 /* CoreDataAssignTests.swift */; };
 		ABBAEF051F5983630031C961 /* CoreDataAssignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF041F5983630031C961 /* CoreDataAssignUITests.swift */; };
+		ABBAEF161F5983F10031C961 /* College+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF121F5983F10031C961 /* College+CoreDataClass.swift */; };
+		ABBAEF171F5983F10031C961 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF131F5983F10031C961 /* College+CoreDataProperties.swift */; };
+		ABBAEF181F5983F10031C961 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF141F5983F10031C961 /* Student+CoreDataClass.swift */; };
+		ABBAEF191F5983F10031C961 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF151F5983F10031C961 /* Student+CoreDataProperties.swift */; };
+		ABBAEF1B1F5987400031C961 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF1A1F5987400031C961 /* StudentVC.swift */; };
+		ABBAEF271F5D11DE0031C961 /* ListOfStudentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBAEF261F5D11DE0031C961 /* ListOfStudentsTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		ABBAEF001F5983630031C961 /* CoreDataAssignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAssignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBAEF041F5983630031C961 /* CoreDataAssignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAssignUITests.swift; sourceTree = "<group>"; };
 		ABBAEF061F5983630031C961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBAEF121F5983F10031C961 /* College+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "College+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABBAEF131F5983F10031C961 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABBAEF141F5983F10031C961 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ABBAEF151F5983F10031C961 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ABBAEF1A1F5987400031C961 /* StudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
+		ABBAEF261F5D11DE0031C961 /* ListOfStudentsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfStudentsTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,10 @@
 		ABBAEED51F5983630031C961 = {
 			isa = PBXGroup;
 			children = (
+				ABBAEF121F5983F10031C961 /* College+CoreDataClass.swift */,
+				ABBAEF131F5983F10031C961 /* College+CoreDataProperties.swift */,
+				ABBAEF141F5983F10031C961 /* Student+CoreDataClass.swift */,
+				ABBAEF151F5983F10031C961 /* Student+CoreDataProperties.swift */,
 				ABBAEEE01F5983630031C961 /* CoreDataAssign */,
 				ABBAEEF81F5983630031C961 /* CoreDataAssignTests */,
 				ABBAEF031F5983630031C961 /* CoreDataAssignUITests */,
@@ -100,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				ABBAEEE11F5983630031C961 /* AppDelegate.swift */,
+				ABBAEF261F5D11DE0031C961 /* ListOfStudentsTVC.swift */,
+				ABBAEF1A1F5987400031C961 /* StudentVC.swift */,
 				ABBAEEE31F5983630031C961 /* ViewController.swift */,
 				ABBAEEE51F5983630031C961 /* Main.storyboard */,
 				ABBAEEEB1F5983630031C961 /* Assets.xcassets */,
@@ -263,8 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBAEEE41F5983630031C961 /* ViewController.swift in Sources */,
+				ABBAEF181F5983F10031C961 /* Student+CoreDataClass.swift in Sources */,
+				ABBAEF171F5983F10031C961 /* College+CoreDataProperties.swift in Sources */,
+				ABBAEF161F5983F10031C961 /* College+CoreDataClass.swift in Sources */,
 				ABBAEEE21F5983630031C961 /* AppDelegate.swift in Sources */,
 				ABBAEEEA1F5983630031C961 /* CoreDataAssign.xcdatamodeld in Sources */,
+				ABBAEF1B1F5987400031C961 /* StudentVC.swift in Sources */,
+				ABBAEF191F5983F10031C961 /* Student+CoreDataProperties.swift in Sources */,
+				ABBAEF271F5D11DE0031C961 /* ListOfStudentsTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +535,7 @@
 				ABBAEF0B1F5983630031C961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABBAEF0C1F5983630031C961 /* Build configuration list for PBXNativeTarget "CoreDataAssignTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +544,7 @@
 				ABBAEF0E1F5983630031C961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABBAEF0F1F5983630031C961 /* Build configuration list for PBXNativeTarget "CoreDataAssignUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +553,7 @@
 				ABBAEF111F5983630031C961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
