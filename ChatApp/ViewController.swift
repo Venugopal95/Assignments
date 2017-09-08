@@ -8,18 +8,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+import UIKit
 
+class ViewController: UIViewController {
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    IJProgressView.shared.showProgressView(view)
+    
+    setCloseTimer()
+    
+    
+    
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  func close() {
+    IJProgressView.shared.hideProgressView()
+    let login = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier:"Login") as! Login
+    
+    self.navigationController?.pushViewController(login, animated: true)
+    
+    
+    
   }
-
-
+  
+  func setCloseTimer() {
+    _ = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(close), userInfo: nil, repeats: false)
+  }
+  
+  
 }
 
